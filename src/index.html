@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <title> HTML IFrames </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container{
+  margin-top: 100px;
+  margin-left: 100px;
+  }
+  .f-group{
+  float: left;
+  }
+  .f-group label
+  {
+  display: block;
+  }
+  select {
+  border: 1px solid black;
+  height: 40px;
+  width: 200px;
+  padding: 0 15px;
+  margin-right: 20px;
+  }
+  button{
+  padding: 20px;
+  }
+  h1{
+  text-align: center;
+  }
+  img{
+    margin-left: 100px;
+  }
+  .whole{
+    border: 2px solid black;
+  }
+
+</style>
+<body>
+    <body class="whole">
+        <h1><i> Dog's Breed </i></h1>
+        <hr width="100%" />
+        <div class="container">
+            <div class="f-group">
+               <label for=""> Breed </label>
+               <select name="slct1" id="slct1">
+                    <option value=""> -- Choose Breed -- </option>
+                    <option value="india"> Labrador </option>
+                    <option value="america"> Pitbull </option>
+                    <option value="america"> BullDog </option>
+                    <option value="america"> Husky </option>
+               </select>
+            </div>
+    
+    
+        <div class="f-group">
+            <label for=""> Sub-Breed </label>
+            <select name="slct2" id="slct2">
+                <option value="america"> -- Choose Sub-breed -- </option>
+            </select>
+        </div>
+    
+        <div class="f-group">
+            <label for=""> No of Images </label>
+            <select name="slct2" id="slct2">
+                <option value="america"> No of images </option>
+                <option value="america"> 1 </option>
+                <option value="america"> 2 </option>
+                <option value="america"> 3 </option>
+                </select>
+                </div>
+    
+        <button class="f-group"> View Images </button> <br/><br/><br/><br/><br/>
+    
+        </div>
+    
+    <img src="Dog1.jpeg"  height="200px" width="250px" />
+    </body>
+        
+</body>
+</html>
